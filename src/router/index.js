@@ -35,13 +35,19 @@ import penaltySeries from "@/pages/penaltySeries";
 import additionalTimeEnded from "@/pages/additionalTimeEnded";
 import endOfGame from "@/pages/endOfGame";
 import timeline from "@/pages/timeline";
+import SiteMap from "@/pages/router";
 
 Vue.use(VueRouter)
 
 const routes = [
     {
         path: '/',
-        name: 'Home',
+        name: 'SiteMap',
+        component: SiteMap
+    },
+    {
+        path: '/mainPage',
+        name: 'mainPage',
         component: mainPage
     },
     {
