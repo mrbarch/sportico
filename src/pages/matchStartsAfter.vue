@@ -73,10 +73,9 @@ export default {
     background: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
-    margin-top: 286px;
+    margin-top: 184px;
     padding: 7px 21px;
     color: #FFFFFF;
-    margin-bottom: 1000px;
   }
 }
 </style>
