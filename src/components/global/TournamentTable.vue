@@ -30,6 +30,7 @@ export default {
   border: 1px solid #0572BB;
   width: 346px;
   height: 290px;
+  position: relative;
   margin: auto;
   margin-top: 19px;
   display: flex;
@@ -63,8 +64,8 @@ export default {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    bottom: -78px;
     display: none;
+    top: 56%;
     &-active {
       display: flex;
     }
