@@ -39,6 +39,7 @@ export default {
   color: #FFFFFF;
   margin-top: 11px;
   height: 100%;
+  overflow: hidden;
   &__title {
     padding-top: 6px;
   }
@@ -75,7 +76,7 @@ export default {
     margin-top: 286px;
     padding: 7px 21px;
     color: #FFFFFF;
-    margin-bottom: 175px;
+    margin-bottom: 1000px;
   }
 }
 </style>
