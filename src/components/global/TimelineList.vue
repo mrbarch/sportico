@@ -46,9 +46,9 @@ export default {
 
 <style lang="scss">
 .timeline-list {
-  overflow-y: scroll;
+  overflow-y: scroll !important;
   background: linear-gradient(90deg, #0673BC 0%, #1D3E54 92.23%);
-  height: 300px;
+  height: 510px;
   width: 97.5%;
 }
 .timeline-list::-webkit-scrollbar-track {

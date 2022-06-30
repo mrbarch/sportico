@@ -72,7 +72,7 @@ export default {
       },
       toasterType: {
         title: 'SUBMITED',
-        info: 'WINDOW AUTOMATICALLY CLOSED AFTER 5 SEC',
+        info: 'WINDOW CLOSES AUTOMATICALLY AFTER 5 SEC',
         borderColor: '#19D92C'
       }
     }

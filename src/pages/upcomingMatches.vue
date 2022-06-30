@@ -29,6 +29,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #FFFFFF;
 
   &__title {
     padding-top: 7px;

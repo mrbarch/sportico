@@ -12,7 +12,7 @@
       <input class="main__input tourney-list__search-input" v-model="inputText">
       <img src="../../src/static/images/search.svg" alt="search" class="tourney-list__search-input-img">
     </div>
-    <div class="tourney-list__no-results h1" v-if="inputText > 0">NO RESULTS</div>
+    <div class="tourney-list__no-results h1" v-if="inputText > 1">NO RESULTS</div>
     <div class="tourney-list" v-if="!searchInput">
       <div class="tourney-list__title h1">SELECT A TOURNEY FROM THE LIST</div>
       <div class="tourney-list__block">
@@ -27,7 +27,9 @@
         </div>
       </div>
     </div>
-    <button class="tourney-list__btn main__btn">NEXT</button>
+    <button class="tourney-list__btn main__btn" :disable="activeTourneyItem === ''">
+      NEXT
+    </button>
   </div>
 </template>
 
@@ -71,9 +73,11 @@ export default {
   &__block {
     padding-top: 36px;
   }
+
   &__title {
     padding-top: 19px;
   }
+
   &__item {
     color: #FFFFFF;
     background: #1E394B;
@@ -104,9 +108,11 @@ export default {
     width: 145px;
     height: 30px;
   }
+
   &__no-results {
     padding-top: 210px;
   }
+
   &__search {
     position: absolute;
     width: 16px;

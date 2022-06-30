@@ -63,7 +63,7 @@ export default {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    bottom: -67px;
+    bottom: -78px;
     display: none;
     &-active {
       display: flex;

@@ -12,9 +12,9 @@
       <input class="main__input select-team__search-input" v-model="inputTextTeam">
       <img src="../../src/static/images/search.svg" alt="search" class="select-team__search-input-img">
     </div>
-    <div class="select-team__no-results h1" v-if="inputTextTeam > 0">NO RESULTS</div>
+    <div class="select-team__no-results h1" v-if="inputTextTeam > 1">NO RESULTS</div>
     <div class="select-team" v-if="!searchInputTeam">
-      <div class="select-team__title h1">SELECT A TEAM A FROM THE LIST</div>
+      <div class="select-team__title h1">SELECT A TEAM FROM THE LIST</div>
       <div class="select-team__block">
         <div
             class="select-team__item"
@@ -31,7 +31,7 @@
     <div class="container">
       <div class="select-team__btns">
         <button class="select-team__btn-create">CREATE A NEW TEAM</button>
-        <button class="select-team__btn main__btn">NEXT</button>
+        <button class="select-team__btn main__btn" :disable="activeTeamItem === ''">NEXT</button>
       </div>
     </div>
   </div>

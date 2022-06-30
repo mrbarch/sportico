@@ -3,7 +3,7 @@
     <Header/>
     <div class="delete-pages">
       <p class="delete-pages__title h1">
-        DELETE MATCHES YOU DON’T NEEDED
+        DELETE MATCHES YOU DON’T NEED
       </p>
     </div>
     <div v-for="matchItem in matchItems" :key="matchItem.index" class="delete-pages__item-wrap">

@@ -9,7 +9,7 @@
           </div>
         </div>
         <div style="position:relative;">
-          <div class="bet-is-on__bill">0:0</div>
+          <div class="bet-is-on__bill"  :class="{'bet-is-on__bill-red' : betIs.red}">0:0</div>
           <img src="../../static/images/pause.svg" alt="pause" class="bet-is-on__pause">
         </div>
         <div class="bet-is-on__team-wrap bet-is-on__team-wrap-right" :class="{'bet-is-on__team-wrap-red' : betIs.red}">
@@ -179,6 +179,9 @@ export default {
     display: flex;
     align-self: center;
     padding-top: 5px;
+    &-red {
+      color: #FFFFFF;
+    }
   }
 
   &__team {

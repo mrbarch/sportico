@@ -16,7 +16,6 @@
           <a href="#" class="burger__menu-text burger__menu-upcoming">UPCOMING MATCHES</a>
           <a href="#" class="burger__menu-text burger__menu-new">CREATE NEW MATCH</a>
           <div class="burger__menu-line"></div>
-          <a href="#" class="burger__menu-text burger__menu-bookmaker">DM BOOKMAKER</a>
           <a href="#" class="burger__menu-text burger__menu-logout">LOG OUT</a>
         </div>
       </div>
@@ -124,7 +123,6 @@ export default {
       font-weight: 600;
       font-size: 16px;
       line-height: 19px;
-      color: #89D791;
       padding-top: 16px;
     }
 

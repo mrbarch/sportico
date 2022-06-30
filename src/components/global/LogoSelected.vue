@@ -5,7 +5,7 @@
         <p class="logo-check__title h1">YOU SELECTED</p>
         <p class="logo-check__full-path h1">liverpool.jpg</p>
         <img src="../../static/images/team-logo.svg" alt="team-logo" class="logo-check__img">
-        <p class="logo-check__question h1">ARE THIS IS A LOGO OF LIVERPOOL?</p>
+        <p class="logo-check__question h1">IS THIS THE LOGO OF LIVERPOOL?</p>
         <div class="container">
           <div class="logo-check__btns">
             <button class="logo-check__btn main__btn">YES</button>

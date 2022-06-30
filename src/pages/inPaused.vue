@@ -87,7 +87,7 @@ export default {
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   &__line {
     width: 5px;

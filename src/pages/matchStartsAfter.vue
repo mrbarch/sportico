@@ -5,7 +5,7 @@
     <div class="match-starts-after">
       <p class="match-starts-after__title h1">MATCH AUTOMATICALLY STARTS AFTER</p>
       <p class="match-starts-after__timer h1">01:22:44</p>
-      <p class="match-starts-after__subtitle h1">AFTER THE MATCH STARTS, CLICK ON START TO WORKING WITH THE APP</p>
+      <p class="match-starts-after__subtitle h1">AFTER THE MATCH STARTS, PRESS START TO CONTINUE WORKING WITH THE APP</p>
       <button class="match-starts-after__btn-start">START</button>
       <button class="match-starts-after__btn-change">CHANGE MATCH START TIME</button>
     </div>
@@ -38,6 +38,7 @@ export default {
   align-items: center;
   color: #FFFFFF;
   margin-top: 11px;
+  height: 100%;
   &__title {
     padding-top: 6px;
   }
