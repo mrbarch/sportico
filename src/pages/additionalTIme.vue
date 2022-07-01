@@ -3,21 +3,21 @@
     <HeaderBetIsOn :green-btn="greenBtn"/>
     <div class="additional-time-line" ></div>
     <BetIsOn :bet-is="betIs"/>
-    <div class="bets-in-pause">
-      <button class="bets-in-pause__btn-pause">PRESS PAUSE TO BETS ON</button>
+    <div class="additional-time">
+      <button class="additional-time__btn-pause">PRESS PAUSE TO BETS ON</button>
     </div>
     <BetsWrap :bets-wrap="betsWrap"/>
     <BetsWrap :bets-wrap="betsWrapHits"/>
     <PercentOfPosession/>
     <BetsWrap :bets-wrap="betsWrapMatchStats"/>
-    <div class="bets-in-pause__match-status">
-      <p class="bets-in-pause__match-title h1">
+    <div class="additional-time__match-status">
+      <p class="additional-time__match-title h1">
         MATCH STATUS
       </p>
-      <p class="bets-in-pause__match-subtitle h1">IN PAUSED</p>
+      <p class="additional-time__match-subtitle h1">IN PAUSED</p>
       <div class="container">
-        <div class="bets-in-pause__match-btns">
-          <button class="bets-in-pause__match-btn bets-in-pause__match-btn-starts">2ND TIME STARTS</button>
+        <div class="additional-time__match-btns">
+          <button class="additional-time__match-btn additional-time__match-btn-starts">2ND TIME STARTS</button>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@ export default {
   background: #ffffff;
 }
 
-.bets-in-pause {
+.additional-time {
   position: relative;
   z-index: 2;
   display: flex;

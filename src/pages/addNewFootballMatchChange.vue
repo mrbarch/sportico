@@ -39,7 +39,7 @@ export default {
 .football-match-change__btn {
   display: flex;
   padding: 7px 57px;
-  margin: 215px 20px 0 0;
+  margin: 150px 20px 0 0;
   float: right;
 }
 </style>

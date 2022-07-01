@@ -2,21 +2,21 @@
   <div style="background: #C52828;">
     <HeaderBetIsOn :green-btn="greenBtn"/>
     <BetIsOn :bet-is="betIs"/>
-    <div class="bets-in-pause">
-      <button class="bets-in-pause__btn-pause">PRESS PAUSE TO BETS ON</button>
+    <div class="second-time">
+      <button class="second-time__btn-pause">PRESS PAUSE TO BETS ON</button>
     </div>
     <BetsWrap :bets-wrap="betsWrap"/>
     <BetsWrap :bets-wrap="betsWrapHits"/>
     <PercentOfPosession/>
     <BetsWrap :bets-wrap="betsWrapMatchStats"/>
-    <div class="bets-in-pause__match-status">
-      <p class="bets-in-pause__match-title h1">
+    <div class="second-time__match-status">
+      <p class="second-time__match-title h1">
         MATCH STATUS
       </p>
-      <p class="bets-in-pause__match-subtitle h1">IN PAUSED</p>
+      <p class="second-time__match-subtitle h1">IN PAUSED</p>
       <div class="container">
-        <div class="bets-in-pause__match-btns">
-          <button class="bets-in-pause__match-btn bets-in-pause__match-btn-starts">2ND TIME STARTS</button>
+        <div class="second-time__match-btns">
+          <button class="second-time__match-btn second-time__match-btn-starts">2ND TIME STARTS</button>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss">
-.bets-in-pause {
+.second-time {
   position: relative;
   z-index: 2;
   display: flex;
