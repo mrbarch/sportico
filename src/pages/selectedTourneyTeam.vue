@@ -56,7 +56,7 @@ export default {
     margin-top: 57px;
     padding: 6px 78px;
     &-next {
-      margin-top: 226px;
+      margin-top: 150px;
       margin-left: auto;
       margin-right: 19px;
       position: relative;

@@ -81,7 +81,7 @@ export default {
   }
   &__btn {
     background: #7D7D7D;
-    margin-top: 201px;
+    margin-top: 100px;
     padding: 7px 81px;
     &-active {
       background: #0F5E92;

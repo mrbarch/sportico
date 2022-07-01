@@ -122,7 +122,7 @@ export default {
   &__btns {
     display: flex;
     justify-content: space-between;
-    margin-top: 285px;
+    margin-top: 150px;
   }
   &__btn {
     margin: 0;

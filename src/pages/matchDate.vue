@@ -57,7 +57,7 @@ export default {
       padding: 1px 78px;
     }
     &-finish {
-      margin-top: 268px;
+      margin-top: 150px;
       padding: 7px 54px
     }
   }

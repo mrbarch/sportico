@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height: 100vh;">
     <Header/>
     <BetIsOn :bet-is="betIs"/>
     <img src="../static/images/timeline.svg" alt="timeline" class="timeline__sign">
@@ -37,6 +37,7 @@ export default {
 .timeline {
   position: relative;
   background: linear-gradient(90deg, #0673BC 0%, #1D3E54 92.23%);
+  height: 100%;
 
   &__title {
     font-family: RobotoCondensed-Bold, sans-serif;
