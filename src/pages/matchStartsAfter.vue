@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 100vh;">
+  <div style="height: 100vh; overflow: hidden">
     <HeaderBetIsOn :green-btn="greenBtn"/>
     <BetIsOn/>
     <div class="match-starts-after">
