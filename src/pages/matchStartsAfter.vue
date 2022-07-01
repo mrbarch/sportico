@@ -38,7 +38,7 @@ export default {
   align-items: center;
   color: #FFFFFF;
   margin-top: 11px;
-  height: 81vh;
+  height: 82vh;
   overflow-y: hidden;
   &__title {
     padding-top: 6px;
