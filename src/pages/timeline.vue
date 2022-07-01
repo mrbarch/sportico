@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 100vh;">
+  <div style="height: 100vh; overflow: hidden">
     <Header/>
     <BetIsOn :bet-is="betIs"/>
     <img src="../static/images/timeline.svg" alt="timeline" class="timeline__sign">
