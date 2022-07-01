@@ -39,7 +39,7 @@ export default {
   color: #FFFFFF;
   margin-top: 11px;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: hidden;
   scroll-behavior: smooth;
   &__title {
     padding-top: 6px;
