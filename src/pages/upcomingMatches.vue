@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow: hidden; height: 100vh;">
     <Header/>
     <div class="upcoming-matches">
       <p class="upcoming-matches__title h1">
@@ -30,6 +30,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   background: #FFFFFF;
+  height: 100vh;
 
   &__title {
     padding-top: 7px;
@@ -48,7 +49,7 @@ export default {
     text-align: center;
   }
   &__btn {
-    margin-top: 149px;
+    margin-top: 70px;
     padding: 7px 38px;
   }
 }
