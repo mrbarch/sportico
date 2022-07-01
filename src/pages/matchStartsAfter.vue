@@ -38,7 +38,7 @@ export default {
   align-items: center;
   color: #FFFFFF;
   margin-top: 11px;
-  height: 100vh;
+  height: 83.5vh;
   overflow-y: hidden;
   scroll-behavior: smooth;
   &__title {
