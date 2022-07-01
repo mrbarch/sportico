@@ -40,7 +40,7 @@ export default {
   margin-top: 11px;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  height: 86%;
+  height: 100%;
   &__title {
     padding-top: 6px;
   }
