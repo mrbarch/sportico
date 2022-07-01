@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height: 100vh;">
     <HeaderBetIsOn :green-btn="greenBtn"/>
     <BetIsOn/>
     <div class="match-starts-after">
@@ -38,7 +38,6 @@ export default {
   align-items: center;
   color: #FFFFFF;
   margin-top: 11px;
-  height: 83.5vh;
   overflow-y: hidden;
   scroll-behavior: smooth;
   &__title {
