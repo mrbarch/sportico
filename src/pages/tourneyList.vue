@@ -97,6 +97,7 @@ export default {
   }
 
   &__btn {
+    margin-bottom: 30px;
     margin-top: 73px;
     margin-left: auto;
     margin-right: 19px;
