@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="bet-is-on__position-wrap bet-is-on__position-wrap-right">
-          <div class="bet-is-on__position-col bet-is-on__position-col-right">
+          <div class="bet-is-on__position-col bet-is-on__position-col-right" @click="$emit('open')">
             <p class="bet-is-on__position-name bet-is-on__position-name-right h1">00:00</p>
           </div>
         </div>

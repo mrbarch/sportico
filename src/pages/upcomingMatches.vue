@@ -28,7 +28,6 @@ export default {
 .upcoming-matches {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background: #FFFFFF;
   height: 100vh;
 

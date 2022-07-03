@@ -58,7 +58,7 @@ export default {
   }
   &__btn {
     padding: 7px 87px;
-    margin-top: 298px;
+    margin-top: 150px;
   }
 }
 </style>

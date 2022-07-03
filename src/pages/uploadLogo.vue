@@ -60,7 +60,7 @@ export default {
       font-weight: 800;
       font-size: 14px;
       line-height: 16px;
-      margin-top: 225px;
+      margin-top: 150px;
       padding: 6px 25px;
       color: #1E394B;
     }

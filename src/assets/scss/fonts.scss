@@ -40,6 +40,11 @@
   url("@/static/fonts/Inter-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: Inter-Bold;
+  src: local('Inter-Bold'),
+  url("@/static/fonts/Inter-Bold.ttf");
+}
 
 @font-face {
   font-family: Syncopate-Bold;
