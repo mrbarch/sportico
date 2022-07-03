@@ -54,6 +54,16 @@ export default {
         'UEFA EURO 2022',
         'EXTRACLASSA A',
         'EXTRACLASSA B',
+        'EXTRACLASSA A',
+        'EXTRACLASSA B',
+        'GACHIMUCHI LEAGUE',
+        'UEFA EURO 2022',
+        'EXTRACLASSA A',
+        'EXTRACLASSA B',
+        'GACHIMUCHI LEAGUE',
+        'UEFA EURO 2022',
+        'EXTRACLASSA A',
+        'EXTRACLASSA B',
       ]
     }
   },
@@ -72,6 +82,7 @@ export default {
 .tourney-list {
   &__block {
     padding-top: 36px;
+    overflow-y: scroll;
   }
 
   &__title {
