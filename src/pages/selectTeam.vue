@@ -172,7 +172,8 @@ export default {
   &__btns {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 33px;
+    margin-bottom: 30px;
   }
   &__btn {
     margin: 0;
