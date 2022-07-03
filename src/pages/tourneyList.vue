@@ -81,12 +81,13 @@ export default {
 <style lang="scss">
 .tourney-list {
   &__block {
-    padding-top: 36px;
+    padding-top: 17px;
     overflow-y: scroll;
+    height: 520px;
   }
 
   &__title {
-    padding-top: 19px;
+    padding: 19px 0;
   }
 
   &__item {
