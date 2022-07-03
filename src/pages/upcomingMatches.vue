@@ -49,6 +49,7 @@ export default {
   }
   &__btn {
     margin-top: 70px;
+    margin-bottom: 30px;
     padding: 7px 38px;
   }
 }

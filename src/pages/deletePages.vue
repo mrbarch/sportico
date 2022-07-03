@@ -72,7 +72,7 @@ export default {
     margin-bottom: 19px;
   }
   &__btn {
-    margin: 138px 0 0 20px;
+    margin: 70px 0 65px 20px;
     padding: 7px 33px;
   }
 }
