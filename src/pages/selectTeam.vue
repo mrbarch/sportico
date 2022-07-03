@@ -140,12 +140,12 @@ export default {
 <style lang="scss">
 .select-team {
   &__block {
-    padding-top: 36px;
+    padding-top: 17px;
     overflow-y: scroll;
     height: 520px;
   }
   &__title {
-    padding-top: 18px;
+    padding: 19px 0;
   }
   &__item {
     color: #FFFFFF;
