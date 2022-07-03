@@ -130,7 +130,7 @@ export default {
   &__btns {
     display: flex;
     justify-content: space-between;
-    margin-top: 84px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 

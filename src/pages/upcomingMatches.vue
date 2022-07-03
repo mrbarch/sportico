@@ -48,7 +48,7 @@ export default {
     text-align: center;
   }
   &__btn {
-    margin-top: 5px;
+    margin-top: 30px;
     margin-bottom: 30px;
     padding: 7px 38px;
   }
