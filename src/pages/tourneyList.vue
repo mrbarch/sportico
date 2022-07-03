@@ -12,7 +12,7 @@
       <input class="main__input tourney-list__search-input" v-model="inputText">
       <img src="../../src/static/images/search.svg" alt="search" class="tourney-list__search-input-img">
     </div>
-    <div class="tourney-list__no-results h1" v-if="inputText !== ''">NO RESULTS</div>
+    <div class="tourney-list__no-results h1" v-if="inputText.length > 0">NO RESULTS</div>
     <div class="tourney-list" v-if="!searchInput">
       <div class="tourney-list__title h1">SELECT A TOURNEY FROM THE LIST</div>
       <div class="tourney-list__block">
@@ -40,7 +40,7 @@ export default {
   name: "tourneyList",
   data() {
     return {
-      inputText: null,
+      inputText: '',
       searchInput: false,
       activeTourneyItem: '',
       tourneyItems: [
