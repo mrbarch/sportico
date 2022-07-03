@@ -131,6 +131,7 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-top: 84px;
+    margin-bottom: 30px;
   }
 
   &__btn {
