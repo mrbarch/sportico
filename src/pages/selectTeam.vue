@@ -72,6 +72,54 @@ export default {
           teamName: 'ARSENAL',
           teamImg: 'team-logo-1.svg',
         },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'LIVERPOOL',
+          teamImg: 'team-logo.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
+        {
+          teamName: 'ARSENAL',
+          teamImg: 'team-logo-1.svg',
+        },
       ]
     }
   },
@@ -93,6 +141,8 @@ export default {
 .select-team {
   &__block {
     padding-top: 36px;
+    overflow-y: scroll;
+    height: 520px;
   }
   &__title {
     padding-top: 18px;
